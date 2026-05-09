@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宬龍數位科技 | 您的全球數位代購首選</title>
+    <meta name="description" content="宬龍數位科技提供全方位數位訂閱、AI工具、影音串流等代購服務。">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Orbitron:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo-container">
+            <img src="logo.png" alt="宬龍數位科技 Logo" class="logo">
+            <div class="company-text-group">
+                <span class="company-name">宬龍數位科技</span>
+                <span class="company-sub">DIGITAL TECHNOLOGY</span>
+            </div>
+        </div>
+        <nav class="nav-links">
+            <a href="#home">首頁</a>
+            <a href="#services">代購服務</a>
+            <a href="#contact" class="btn-primary">聯絡我們</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-bg">
+                <img src="1.png" alt="首頁滿版圖" class="hero-bg-img">
+                <div class="hero-overlay"></div>
+                <div class="cyber-grid"></div>
+            </div>
+            <div class="scroll-indicator">
+                <a href="#services">
+                    <div class="mouse"></div>
+                    <p>SCROLL</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h2 class="section-title">服務</h2>
+            <p class="section-desc">我們提供多種類別的數位服務代購，滿足您的所有需求</p>
+            <div id="categories-grid" class="grid-container">
+                <!-- Dynamically populated by JS -->
+            </div>
+        </section>
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">聯絡我們</h2>
+            <p class="section-desc">我們提供多種管道，讓您隨時能與我們取得聯繫</p>
+            
+            <div class="contact-container">
+                <div class="contact-card">
+                    <h3 class="contact-subtitle">聯絡資訊</h3>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fa-brands fa-line" style="color: #00B900;"></i>
+                            <a href="https://line.me/R/ti/p/@909mkids" target="_blank">Line: @909mkids</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope" style="color: #EA4335;"></i>
+                            <a href="mailto:jerryyu302333@gmail.com">jerryyu302333@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-instagram" style="color: #E1306C;"></i>
+                            <a href="https://www.instagram.com/vision_dragoon" target="_blank">Instagram (vision_dragoon)</a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-youtube" style="color: #FF0000;"></i>
+                            <a href="https://m.youtube.com/@jasonchang8742" target="_blank">YouTube 頻道</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-store" style="color: #FF9900;"></i>
+                            <a href="https://www.8591.com.tw/v3/mall/list/seller-2245450" target="_blank">8591 賣場</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="contact-card trust-card">
+                    <h3 class="contact-subtitle">值得信賴</h3>
+                    <div class="trust-stats">
+                        <div class="stat-item">
+                            <i class="fa-solid fa-crown" style="color: #FFD700;"></i>
+                            <div class="stat-text">
+                                <span class="stat-label">8591賣家評價</span>
+                                <span class="stat-value">3,257</span>
+                            </div>
+                        </div>
+                        <div class="stat-item highlight">
+                            <i class="fa-solid fa-thumbs-up" style="color: var(--accent-cyan);"></i>
+                            <div class="stat-text">
+                                <span class="stat-label">正評率</span>
+                                <span class="stat-value">98.20%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="logo.png" alt="宬龍數位科技 Logo">
+                <span>宬龍數位科技</span>
+            </div>
+            <p>&copy; 2026 宬龍數位科技. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
