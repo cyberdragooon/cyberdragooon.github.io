@@ -11,7 +11,13 @@ const categories = [
             { name: "Spotify", domain: "spotify.com" },
             { name: "iQIYI（愛奇藝）", domain: "iq.com" },
             { name: "WeTV", domain: "wetv.vip" },
-            { name: "KKBOX", domain: "kkbox.com" }
+            { name: "KKBOX", domain: "kkbox.com" },
+            { name: "遠傳friday", domain: "video.friday.tw" },
+            { name: "MyVideo", domain: "www.myvideo.net.tw" },
+            { name: "騰訊視頻", domain: "v.qq.com" },
+            { name: "Bilibili", domain: "www.bilibili.com" },
+            { name: "愛壹帆", domain: "www.yfsp.tv" },
+            { name: "優酷", domain: "youku.com" },
         ]
     },
     {
